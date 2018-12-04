@@ -1,0 +1,1800 @@
+body {
+    background-color: #F5F5F5;
+}
+/* 电梯导航 */
+.elevator {
+    position: fixed;
+    top: 280px;
+    left: 280px;
+    display: none;
+}
+.elevator.active {
+    display:block;
+}
+.elevator li {
+    width: 36px;
+    height: 46px;
+    text-align: center;
+    background-color: #fff;
+}
+.elevator li.selected {
+    background-color: ;
+}
+
+/* .elevator a {
+    display: block;
+    width: 36px;
+    height: 46px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 14px; 
+}*/
+.elevator li:hover {
+    background-color: #08D19E;
+} 
+.elevator li+li {
+    margin-top: 4px;
+}
+
+ /* -------------------------全球进口区域 ---------------------------*/
+.import_title {
+    width: 100%;
+    margin: 10px 0;
+}   
+.import_title h3 {
+    float: left;
+}
+.import_title span {
+ display: block;
+ width: 18px;   
+ height: 18px;
+ background-color: black;
+ opacity: .5;
+ color: white;
+ float: left;
+ text-align: center;
+ line-height: 18px;
+ border-radius: 50%;
+ margin-left: 10px;
+ margin-top: 2px;
+ font-family: "宋体";
+ font-weight: 700;
+}
+
+/* 左边大图div */
+.big_con {
+    border: 4px solid black;
+    width: 930px;
+    height: 450px;
+}
+.left_big {
+    position: relative;
+}
+.left_big img {
+    width: 314px;
+    height: 450px;
+}
+.import_nav li {
+  float: left;  
+}
+.import_nav {
+    position: absolute;
+    bottom: 20px;
+    left:20px;
+}
+
+.import_nav li {
+    width: 86px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* opacity: .1; */
+    margin-right: 10px;
+    margin-top: 8px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.import_nav li a {
+    color: #fff;
+    font-size: 14px;
+}
+.right_big {
+    width: 616px;
+}
+.right_big a {
+    float: left;
+    display: block;
+}
+.right_big a:nth-child(1) img {
+   
+    width: 100%;
+    height: 100%;
+    /* width: 412px;
+    height: 224px; */
+}
+/* .right_big a img:hover {
+    transform: scale(1.03, 1.03);
+    transition: .5s linear;
+} */
+
+.right_big a:nth-child(1) {
+    width: 412px;
+    height: 224px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.right_big a:nth-child(2) {
+    border-bottom: 1px solid black;
+}
+.right_big a:nth-child(3) {
+    width: 206px;
+    border-right: 1px solid black;
+}
+.right_big a:nth-child(4) {
+    width: 205px;
+    border-right: 1px solid black;
+}
+.right_big a img {
+    width: 203px;
+    height: 224px;
+}
+
+/* 右边小图区域  -+++++++++++++++---------------------  重复使用*/ 
+.small_con {
+    width: 260px;
+}
+
+.small_con img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: all 0.5s;
+}
+
+.small_con img.active {
+    right: 16px;
+}
+.small_con li {
+    width: 120px;
+    height: 142px;
+    float: left;
+    background-color: white;
+    padding: 5px;
+    position: relative;
+}
+
+/* --------------------国产食品---------------------------- */
+.food {
+    margin-top: 10px;
+}
+.food .left_food {
+    width: 240px;
+    height: 430px; 
+    background-color: #F99D5D;  
+}
+
+
+.food .top_l_food {
+    text-align: center;
+    margin-top: 10px;
+    font-family: "宋体";
+}
+
+.food .top_l_food a {
+    color: white;
+    font-size: 18px;
+   
+}
+.food .top_l_food p {
+    color: white;
+  
+}
+
+.food .top_l_food span {
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: #fff;
+    margin:  10px auto  4px;
+}
+
+.food .midd_food {
+    width: 744px;
+    height: 430px;
+    border-right: 1px solid #ccc;
+    background-color: white;
+    
+}
+
+.food .midd_l_food {
+    width: 200px;
+    height: 300px;
+    margin: 20px auto 0;
+    position: relative;
+    text-align: center;
+
+}
+.food .midd_l_food li {
+    width: 200px;
+    height: 226px;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: all .6s;
+   
+}
+
+.food .midd_l_food .silder1 {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 160px;
+    height: 226px;
+    z-index: 1;
+    opacity: .3;
+}
+.food .midd_l_food .silder2 {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    width: 180px;
+    height: 226px;
+    z-index: 2;
+    opacity: .7;
+}
+.food .midd_l_food .silder3 {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 200px;
+    height: 226px;
+    z-index: 3;
+    opacity: 1;
+}
+.food .midd_l_food li a:nth-child(1) {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    color: ;
+}
+.food .midd_l_food li a:nth-child(3) {
+    display: block;
+    margin-top: -10px;
+    font-size: 10px;
+}
+.food .midd_l_food li img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom: 30px;
+}
+.food .midd_l_food .control {
+    width: 100%;
+    position: absolute;
+    bottom: 14px;
+}
+.food .control a {
+    color: #fff;
+}
+.food .control span {
+    color: #fff;
+}
+
+.food .bott_l_food {
+    width: 100%;
+    height: 45px;
+    background-color: rgba(247, 242, 242, 0.5);
+    position: relative;
+    overflow: hidden;
+}
+
+
+.food .bott_l_food .icon-zhaoxiangji {
+    display: block;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.food .bott_l_food ul {
+    position: absolute;
+    left: 66px;
+    top: -45px;
+}
+.food .bott_l_food ul li {
+    height: 45px;
+    line-height: 45px;
+}
+/* #btn_top {
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    color: white;
+    right: 0;
+    top: 0;
+} */
+.food .midd_food_title {
+    padding-left: 20px;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 40px;
+}
+.food .midd_food_title li{
+ float: left;
+}
+.food .midd_food_title li a {
+    color: rgb(139, 70, 70);
+}
+.food .midd_food_title li:nth-child(2n) {
+    width: 1px;
+    height: 16px;
+    background-color: #ccc;
+    margin: 12px 10px;
+}
+
+
+.food .midd_face_cont {
+    /* width: 260px;    */
+}
+
+.food .midd_food_cont img {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: all 0.5s;
+}
+
+.food .midd_food_cont img.active {
+    right: 16px;
+}
+.food .midd_food_cont li {
+    width: 236px;
+    height: 182px;
+    float: left;
+    background-color: white;
+    padding: 5px;
+    position: relative;
+    border: 1px solid #ccc;
+}
+.food .midd_food_cont_pic {
+    width: 238px;
+    height: 184px;
+}
+.food .midd_food_cont_pic a {
+    display: block;
+    float: left;
+    width: 117px;
+    height: 62px;
+    background-color: white;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+.food .midd_food_cont_pic a:nth-child(odd) {
+    border-right: 1px solid #ccc;
+   
+}
+.food .midd_food_cont .midd_food_cont_pic a img {
+    position: absolute;
+    width: 80px;
+    height: 32px;
+    left: 20px;
+    top: 18px;
+}
+
+.food .right_food {
+    width: 215px;
+    height: 430px;
+    background-color: white;
+}
+
+.food .right_food dl {
+    padding: 10px;
+    text-align: center;
+}
+.food .right_food dl dt {
+    margin: 10px 0;
+}
+.food .right_food dd {
+    height: 78px;
+   
+}
+.food .right_food a:nth-child(1) {
+    display: block;
+    height: 60px;
+    float: left;
+}
+.food .right_food dd a:nth-child(2) {
+    font-size: 10px;
+    width: 126px;
+    display: block;
+    float:right;
+}
+.food .right_food dd a span:nth-child(2) {
+    display: block;
+    margin-left: -112px;
+    color: red;
+}
+.food .right_food img{
+    width: 60px;
+    height: 60px;
+}
+/* -------------------生活生鲜 ----------------------*/
+.life {
+    margin-top: 10px;
+}
+/* -----------------left-------------------- */
+.life .left_life {
+    width: 596px;
+    height: 430px;
+    margin-right: 8px;
+    background-color: pink;
+}
+
+.life .left_life_title {
+    width: 100%;
+    height: 50px;
+    background-color: #09D09C;
+    line-height: 50px;
+ }
+
+ .life .left_life_title > a {
+    display: block;
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    float: left;
+}
+.life .left_life_title ul {
+    float: right;
+    padding-right: 30px;
+}
+.life .left_life_title li{
+    float:left;
+}
+.life .left_life_title li >a {
+    color: white;
+}
+.life .left_life_title li:nth-child(even) {
+    width: 1px;
+    height: 16px;
+    background-color: white;
+    margin: 17px 10px;
+}
+.life .left_life_cont {
+    width: 246px;
+    height: 378px;
+    border: 1px solid red;
+}
+.life .left_life_cont .wrapper .tab {
+    margin-top: 20px;
+    padding: 10px;
+    height: 40px;
+    border: 1px solid red;
+    position: relative;
+}
+.life .left_life_cont .wrapper .tab li {
+    /* float: left; */
+    position: absolute;
+    left: 50px;
+    top: 6px;
+    display: none;
+    font-size: 18px;
+}
+.life .left_life_cont .wrapper .tab li.active {
+    display: block;
+}
+
+.life .left_life_cont .products {
+    position: relative;
+}
+.life .left_life_cont .products .main {
+    position: absolute;
+    top: -50px;
+    right: 0;
+    display: none;
+}
+.life .left_life_cont .products .main.selected {
+    display: block;
+}
+.life .left_life_cont .products img{
+    width: 200px;
+    height: 316px;
+}
+
+.life .left_life .life_small_con {
+    width: 346px;
+}
+.life .left_life .life_small_con img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: all 0.5s;
+}
+.life .left_life .life_small_con img.active {
+    right: 16px;
+}
+.life .left_life .life_small_con li {
+    width: 163px;
+    height: 179px;
+    float: left;
+    background-color: pink;
+    padding: 5px;
+    position: relative;
+}
+.life .left_life_cont .wrapper span {
+    display: none;
+}
+/* ---------------------------right--------------- */
+.life .right_life {
+    width: 596px;
+    height: 430px;
+    background-color: ;
+}
+
+.life .right_life_title {
+    width: 100%;
+    height: 50px;
+    background-color: #09D09C;
+    line-height: 50px;
+ }
+
+.life .right_life_title > a {
+    display: block;
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    float: left;
+}
+.life .right_life_title ul {
+    float: right;
+    padding-right: 30px;
+}
+.life .right_life_title li{
+    float:left;
+}
+.life .right_life_title li >a {
+    color: white;
+}
+.life .right_life_title li:nth-child(even) {
+    width: 1px;
+    height: 16px;
+    background-color: white;
+    margin: 17px 10px;
+}
+.life .right_life_cont {
+    width: 246px;
+    height: 378px;
+    border: 1px solid red;
+}
+.life .right_life_cont .wrapper .tab {
+    margin-top: 20px;
+    padding: 10px;
+    height: 40px;
+    border: 1px solid red;
+}
+.life .right_life_cont .wrapper .tab li {
+    float: left;
+}
+.life .right_life_cont .products {
+    position: relative;
+}
+.life .right_life_cont .products .main {
+    position: absolute;
+    top: -50px;
+    right: 0;
+}
+.life .right_life_cont .products img{
+    width: 200px;
+    height: 316px;
+}
+
+
+.life .right_life .life_small_con {
+    width: 346px;
+  
+}
+
+.life .right_life .life_small_con img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: all 0.5s;
+}
+
+.life .right_life .life_small_con img.active {
+    right: 16px;
+}
+.life .right_life .life_small_con li {
+    width: 163px;
+    height: 179px;
+    float: left;
+    background-color: white;
+    padding: 5px;
+    position: relative;
+}
+
+/* -----------------------个人美妆---------------------------- */
+
+
+.face {
+    margin-top: 10px;
+}
+.face .left_face {
+    width: 240px;
+    height: 430px; 
+    background-color: #F99D5D;  
+}
+
+.face .midd_face {
+    width: 744px;
+    height: 430px;
+    border-right: 1px solid #ccc;
+    background-color: white;
+}
+
+.face .right_face {
+    width: 215px;
+    height: 430px;
+    background-color: white;
+}
+
+
+.face .left_food {
+    width: 240px;
+    height: 430px; 
+    background-color: #F99D5D;  
+}
+
+
+.face .top_l_face {
+    text-align: center;
+    margin-top: 10px;
+    font-family: "宋体";
+}
+
+.face .top_l_face a {
+    color: white;
+    font-size: 18px;
+   
+}
+.face .top_l_face p {
+    color: white;
+  
+}
+
+.face .top_l_face span {
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: #fff;
+    margin:  10px auto  4px;
+}
+
+.face .midd_face {
+    width: 744px;
+    height: 430px;
+    border-right: 1px solid #ccc;
+    background-color: white;
+    
+}
+
+.face .midd_l_face {
+    width: 200px;
+    height: 300px;
+    margin: 20px auto 0;
+    position: relative;
+    text-align: center;
+
+}
+.face .midd_l_face li {
+    width: 200px;
+    height: 226px;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: all .6s;
+   
+}
+
+.face .midd_l_face .silder1 {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 160px;
+    height: 226px;
+    z-index: 1;
+    opacity: .3;
+}
+.face .midd_l_face .silder2 {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    width: 180px;
+    height: 226px;
+    z-index: 2;
+    opacity: .7;
+}
+.face .midd_l_face .silder3 {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 200px;
+    height: 226px;
+    z-index: 3;
+    opacity: 1;
+}
+.face .midd_l_face li a:nth-child(1) {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    color: ;
+}
+.face .midd_l_face li a:nth-child(3) {
+    display: block;
+    margin-top: -10px;
+    font-size: 10px;
+}
+.face .midd_l_face li img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom: 30px;
+}
+.face .midd_l_face .control {
+    width: 100%;
+    position: absolute;
+    bottom: 14px;
+}
+.face .control a {
+    color: #fff;
+}
+.face .control span {
+    color: #fff;
+}
+
+.face .bott_l_face {
+    width: 100%;
+    height: 45px;
+    background-color: rgba(247, 242, 242, 0.5);
+    position: relative;
+    overflow: hidden;
+}
+
+
+.face .bott_l_face .icon-zhaoxiangji {
+    display: block;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.face .bott_l_face ul {
+    position: absolute;
+    left: 66px;
+    top: -45px;
+}
+.face .bott_l_face ul li {
+    height: 45px;
+    line-height: 45px;
+}
+/* #btn_top {
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    color: white;
+    right: 0;
+    top: 0;
+} */
+.face .midd_face_title {
+    padding-left: 20px;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 40px;
+}
+.face .midd_face_title li{
+ float: left;
+}
+.face .midd_face_title li a {
+    color: rgb(139, 70, 70);
+}
+.face .midd_face_title li:nth-child(2n) {
+    width: 1px;
+    height: 16px;
+    background-color: #ccc;
+    margin: 12px 10px;
+}
+
+
+/* .face .midd_face_cont { */
+    /* width: 260px;    */
+/* } */
+
+.face .midd_face_cont img {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: all 0.5s;
+}
+
+.face .midd_face_cont img.active {
+    right: 16px;
+}
+.face .midd_face_cont li {
+    width: 236px;
+    height: 182px;
+    float: left;
+    background-color: white;
+    padding: 5px;
+    position: relative;
+    border: 1px solid #ccc;
+}
+.face .midd_face_cont_pic {
+    width: 238px;
+    height: 184px;
+}
+.face .midd_face_cont_pic a {
+    display: block;
+    float: left;
+    width: 117px;
+    height: 62px;
+    background-color: white;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+.face .midd_face_cont_pic a:nth-child(odd) {
+    border-right: 1px solid #ccc;
+   
+}
+.face .midd_face_cont .midd_face_cont_pic a img {
+    position: absolute;
+    width: 80px;
+    height: 32px;
+    left: 20px;
+    top: 18px
+}
+
+.face .right_face {
+    width: 215px;
+    height: 430px;
+    background-color: white;
+}
+
+.face .right_face dl {
+    padding: 10px;
+    text-align: center;
+}
+.face .right_face dl dt {
+    margin: 10px 0;
+}
+.face .right_face dd {
+    height: 78px;
+   
+}
+.face .right_face a:nth-child(1) {
+    display: block;
+    height: 60px;
+    float: left;
+}
+.face .right_face dd a:nth-child(2) {
+    font-size: 10px;
+    width: 126px;
+    display: block;
+    float:right;
+}
+.face .right_face dd a span:nth-child(2) {
+    display: block;
+    margin-left: -112px;
+    color: red;
+}
+.face .right_face img{
+    width: 60px;
+    height: 60px;
+}
+/* -------------------------母婴玩具--------------------- */
+/* .baby {
+    margin-top: 10px;
+}
+
+.left_baby {
+    width: 596px;
+    height: 430px;
+    margin-right: 8px;
+    background-color: white;
+}
+
+.right_baby {
+    width: 596px;
+    height: 430px;
+    background-color: ;
+} */
+
+.baby {
+    margin-top: 10px;
+}
+/* -----------------left-------------------- */
+.baby .left_baby {
+    width: 596px;
+    height: 430px;
+    margin-right: 8px;
+    background-color: white;
+}
+
+.baby .left_baby_title {
+    width: 100%;
+    height: 50px;
+    background-color: #09D09C;
+    line-height: 50px;
+ }
+
+ .baby .left_baby_title > a {
+    display: block;
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    float: left;
+}
+.baby .left_baby_title ul {
+    float: right;
+    padding-right: 30px;
+}
+.baby .left_baby_title li{
+    float:left;
+}
+.baby .left_baby_title li >a {
+    color: white;
+}
+.baby .left_baby_title li:nth-child(even) {
+    width: 1px;
+    height: 16px;
+    background-color: white;
+    margin: 17px 10px;
+}
+.baby .left_baby_cont {
+    width: 246px;
+    height: 378px;
+    border: 1px solid red;
+}
+.baby .left_baby_cont .wrapper .tab {
+    margin-top: 20px;
+    padding: 10px;
+    height: 40px;
+    border: 1px solid red;
+}
+.baby .left_baby_cont .wrapper .tab li {
+    float: left;
+}
+.baby .left_baby_cont .products {
+    position: relative;
+}
+.baby .left_baby_cont .products .main {
+    position: absolute;
+    top: -50px;
+    right: 0;
+}
+.baby .left_baby_cont .products img{
+    width: 200px;
+    height: 316px;
+}
+
+
+.baby .left_baby .baby_small_con {
+    width: 346px;
+  
+}
+
+.baby .left_baby .baby_small_con img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: all 0.5s;
+}
+
+.baby .left_baby .baby_small_con img.active {
+    right: 16px;
+}
+.baby .left_baby .baby_small_con li {
+    width: 163px;
+    height: 179px;
+    float: left;
+    background-color: white;
+    padding: 5px;
+    position: relative;
+}
+
+/* ---------------------------right--------------- */
+.baby .right_baby {
+    width: 596px;
+    height: 430px;
+    background-color: ;
+}
+
+.baby .right_baby_title {
+    width: 100%;
+    height: 50px;
+    background-color: #09D09C;
+    line-height: 50px;
+ }
+
+.baby .right_baby_title > a {
+    display: block;
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    float: left;
+}
+.baby .right_baby_title ul {
+    float: right;
+    padding-right: 30px;
+}
+.baby .right_baby_title li{
+    float:left;
+}
+.baby .right_baby_title li >a {
+    color: white;
+}
+.baby .right_baby_title li:nth-child(even) {
+    width: 1px;
+    height: 16px;
+    background-color: white;
+    margin: 17px 10px;
+}
+.baby .right_baby_cont {
+    width: 246px;
+    height: 378px;
+    border: 1px solid red;
+}
+.baby .right_baby_cont .wrapper .tab {
+    margin-top: 20px;
+    padding: 10px;
+    height: 40px;
+    border: 1px solid red;
+}
+.baby .right_baby_cont .wrapper .tab li {
+    float: left;
+}
+.baby .right_baby_cont .products {
+    position: relative;
+}
+.baby .right_baby_cont .products .main {
+    position: absolute;
+    top: -50px;
+    right: 0;
+}
+.baby .right_baby_cont .products img{
+    width: 200px;
+    height: 316px;
+}
+
+
+.baby .right_baby .baby_small_con {
+    width: 346px;
+  
+}
+
+.baby .right_baby .baby_small_con img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: all 0.5s;
+}
+
+.baby .right_baby .baby_small_con img.active {
+    right: 16px;
+}
+.baby .right_baby .baby_small_con li {
+    width: 163px;
+    height: 179px;
+    float: left;
+    background-color: white;
+    padding: 5px;
+    position: relative;
+}
+
+
+
+/* ----------------------生活家居-------------------------- */
+/* .family {
+    margin-top: 10px;
+}
+.left_family{
+    width: 240px;
+    height: 430px; 
+    background-color: #F99D5D;  
+}
+
+.midd_family {
+    width: 744px;
+    height: 430px;
+    border-right: 1px solid #ccc;
+    background-color: white;
+}
+
+.right_family {
+    width: 215px;
+    height: 430px;
+    background-color: ;
+} */
+
+
+.family {
+    margin-top: 10px;
+}
+.family .left_family {
+    width: 240px;
+    height: 430px; 
+    background-color: #F99D5D;  
+}
+
+
+.family .top_l_family {
+    text-align: center;
+    margin-top: 10px;
+    font-family: "宋体";
+}
+
+.family .top_l_family a {
+    color: white;
+    font-size: 18px;
+   
+}
+.family .top_l_family p {
+    color: white;
+  
+}
+
+.family .top_l_family span {
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: #fff;
+    margin:  10px auto  4px;
+}
+
+.family .midd_family {
+    width: 744px;
+    height: 430px;
+    border-right: 1px solid #ccc;
+    background-color: white;
+    
+}
+
+.family .midd_l_family {
+    width: 200px;
+    height: 300px;
+    margin: 20px auto 0;
+    position: relative;
+    text-align: center;
+
+}
+.family .midd_l_family li {
+    width: 200px;
+    height: 226px;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: all .6s;
+   
+}
+
+.family .midd_l_family .silder1 {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 160px;
+    height: 226px;
+    z-index: 1;
+    opacity: .3;
+}
+.family .midd_l_family .silder2 {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    width: 180px;
+    height: 226px;
+    z-index: 2;
+    opacity: .7;
+}
+.family .midd_l_family .silder3 {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 200px;
+    height: 226px;
+    z-index: 3;
+    opacity: 1;
+}
+.family .midd_l_family li a:nth-child(1) {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    color: ;
+}
+.family .midd_l_family li a:nth-child(3) {
+    display: block;
+    margin-top: -10px;
+    font-size: 10px;
+}
+.family .midd_l_family li img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom: 30px;
+}
+.family .midd_l_family .control {
+    width: 100%;
+    position: absolute;
+    bottom: 14px;
+}
+.family .control a {
+    color: #fff;
+}
+.family .control span {
+    color: #fff;
+}
+
+.family .bott_l_family {
+    width: 100%;
+    height: 45px;
+    background-color: rgba(247, 242, 242, 0.5);
+    position: relative;
+    overflow: hidden;
+}
+
+
+.family .bott_l_family .icon-zhaoxiangji {
+    display: block;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.family .bott_l_family ul {
+    position: absolute;
+    left: 66px;
+    top: -45px;
+}
+.family .bott_l_family ul li {
+    height: 45px;
+    line-height: 45px;
+}
+/* #btn_top {
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    color: white;
+    right: 0;
+    top: 0;
+} */
+.family .midd_family_title {
+    padding-left: 20px;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 40px;
+}
+.family .midd_family_title li{
+ float: left;
+}
+.family .midd_family_title li a {
+    color: rgb(139, 70, 70);
+}
+.family .midd_family_title li:nth-child(2n) {
+    width: 1px;
+    height: 16px;
+    background-color: #ccc;
+    margin: 12px 10px;
+}
+
+
+.family .midd_face_cont {
+    /* width: 260px;    */
+}
+
+.family .midd_family_cont img {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: all 0.5s;
+}
+
+.family .midd_family_cont img.active {
+    right: 16px;
+}
+.family .midd_family_cont li {
+    width: 236px;
+    height: 182px;
+    float: left;
+    background-color: white;
+    padding: 5px;
+    position: relative;
+    border: 1px solid #ccc;
+}
+.family .midd_family_cont_pic {
+    width: 238px;
+    height: 184px;
+}
+.family .midd_family_cont_pic a {
+    display: block;
+    float: left;
+    width: 117px;
+    height: 62px;
+    background-color: white;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+.family .midd_family_cont_pic a:nth-child(odd) {
+    border-right: 1px solid #ccc;
+   
+}
+.family .midd_family_cont .midd_family_cont_pic a img {
+    position: absolute;
+    width: 80px;
+    height: 32px;
+    left: 20px;
+    top: 18px;
+}
+
+.family .right_family {
+    width: 215px;
+    height: 430px;
+    background-color: white;
+}
+
+.family .right_family dl {
+    padding: 10px;
+    text-align: center;
+}
+.family .right_family dl dt {
+    margin: 10px 0;
+}
+.family .right_family dd {
+    height: 78px;
+   
+}
+.family .right_family a:nth-child(1) {
+    display: block;
+    height: 60px;
+    float: left;
+}
+.family .right_family dd a:nth-child(2) {
+    font-size: 10px;
+    width: 126px;
+    display: block;
+    float:right;
+}
+.family .right_family dd a span:nth-child(2) {
+    display: block;
+    margin-left: -112px;
+    color: red;
+}
+.family .right_family img{
+    width: 60px;
+    height: 60px;
+}
+
+/* ------------------------手机家电-------------------------- */
+
+.phone {
+    margin-top: 10px;
+}
+.left_phone {
+    width: 240px;
+    height: 430px; 
+    background-color: #F99D5D;  
+}
+
+.midd_phone {
+    width: 744px;
+    height: 430px;
+    border-right: 1px solid #ccc;
+    background-color: white;
+}
+
+.right_phone {
+    width: 215px;
+    height: 430px;
+    background-color: white;
+}
+.phone {
+    margin-top: 10px;
+}
+.phone .left_phone {
+    width: 240px;
+    height: 430px; 
+    background-color: #F99D5D;  
+}
+
+
+.phone .top_l_phone {
+    text-align: center;
+    margin-top: 10px;
+    font-phone: "宋体";
+}
+
+.phone .top_l_phone a {
+    color: white;
+    font-size: 18px;
+   
+}
+.phone .top_l_phone p {
+    color: white;
+  
+}
+
+.phone .top_l_phone span {
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: #fff;
+    margin:  10px auto  4px;
+}
+
+.phone .midd_phone {
+    width: 744px;
+    height: 430px;
+    border-right: 1px solid #ccc;
+    background-color: white;
+    
+}
+
+.phone .midd_l_phone {
+    width: 200px;
+    height: 300px;
+    margin: 20px auto 0;
+    position: relative;
+    text-align: center;
+
+}
+.phone .midd_l_phone li {
+    width: 200px;
+    height: 226px;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: all .6s;
+   
+}
+
+.phone .midd_l_phone .silder1 {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 160px;
+    height: 226px;
+    z-index: 1;
+    opacity: .3;
+}
+.phone .midd_l_phone .silder2 {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    width: 180px;
+    height: 226px;
+    z-index: 2;
+    opacity: .7;
+}
+.phone .midd_l_phone .silder3 {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 200px;
+    height: 226px;
+    z-index: 3;
+    opacity: 1;
+}
+.phone .midd_l_phone li a:nth-child(1) {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    color: ;
+}
+.phone .midd_l_phone li a:nth-child(3) {
+    display: block;
+    margin-top: -10px;
+    font-size: 10px;
+}
+.phone .midd_l_phone li img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom: 30px;
+}
+.phone .midd_l_phone .control {
+    width: 100%;
+    position: absolute;
+    bottom: 14px;
+}
+.phone .control a {
+    color: #fff;
+}
+.phone .control span {
+    color: #fff;
+}
+
+.phone .bott_l_phone {
+    width: 100%;
+    height: 45px;
+    background-color: rgba(247, 242, 242, 0.5);
+    position: relative;
+    overflow: hidden;
+}
+
+
+.phone .bott_l_phone .icon-zhaoxiangji {
+    display: block;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.phone .bott_l_phone ul {
+    position: absolute;
+    left: 66px;
+    top: -45px;
+}
+.phone .bott_l_phone ul li {
+    height: 45px;
+    line-height: 45px;
+}
+/* #btn_top {
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    color: white;
+    right: 0;
+    top: 0;
+} */
+.phone .midd_phone_title {
+    padding-left: 20px;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 40px;
+}
+.phone .midd_phone_title li{
+ float: left;
+}
+.phone .midd_phone_title li a {
+    color: rgb(139, 70, 70);
+}
+.phone .midd_phone_title li:nth-child(2n) {
+    width: 1px;
+    height: 16px;
+    background-color: #ccc;
+    margin: 12px 10px;
+}
+
+
+.phone .midd_face_cont {
+    /* width: 260px;    */
+}
+
+.phone .midd_phone_cont img {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: all 0.5s;
+}
+
+.phone .midd_phone_cont img.active {
+    right: 16px;
+}
+.phone .midd_phone_cont li {
+    width: 236px;
+    height: 182px;
+    float: left;
+    background-color: white;
+    padding: 5px;
+    position: relative;
+    border: 1px solid #ccc;
+}
+.phone .midd_phone_cont_pic {
+    width: 238px;
+    height: 184px;
+}
+.phone .midd_phone_cont_pic a {
+    display: block;
+    float: left;
+    width: 117px;
+    height: 62px;
+    background-color: white;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+.phone .midd_phone_cont_pic a:nth-child(odd) {
+    border-right: 1px solid #ccc;
+   
+}
+.phone .midd_phone_cont .midd_phone_cont_pic a img {
+    position: absolute;
+    width: 80px;
+    height: 32px;
+    left: 20px;
+    top: 18px;
+}
+
+.phone .right_phone {
+    width: 215px;
+    height: 430px;
+    background-color: ;
+}
+
+.phone .right_phone dl {
+    padding: 10px;
+    text-align: center;
+}
+.phone .right_phone dl dt {
+    margin: 10px 0;
+}
+.phone .right_phone dd {
+    height: 78px;
+   
+}
+.phone .right_phone a:nth-child(1) {
+    display: block;
+    height: 60px;
+    float: left;
+}
+.phone .right_phone dd a:nth-child(2) {
+    font-size: 10px;
+    width: 126px;
+    display: block;
+    float:right;
+}
+.phone .right_phone dd a span:nth-child(2) {
+    display: block;
+    margin-left: -112px;
+    color: red;
+}
+.phone .right_phone img{
+    width: 60px;
+    height: 60px;
+}
+
+/* -------------------------懂你想要--------------------------- */
+
+.know .w {
+    /* height: 600px; */
+    /* background-color: white; */
+    margin-top: 10px;
+}
+
+.know_title {
+    width: 1200px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    background-color: #F5F5F5;
+    font-size: 20px;
+}
+.know img {
+    /* margin-top: 2px; */
+    /* margin-left: 5px; */
+    width: 214px;
+    height: 220px;
+}
+
+.know .know_cont  {
+    padding: 10px;
+   
+}
+.know .know_cont li {
+    padding: 6px;
+    float: left;
+    width: 214px;
+    height: 304px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    /* transition: all .5s; */
+    
+
+}
+.know .know_cont li.active {
+    width: 212px;
+    height: 302px;
+    border: 1px solid red;
+}
+.know .know_cont p {
+    padding: 0 7px;
+    font-size: 14px;
+    
+}
+.know .know_cont span:nth-child(1) {
+    margin-left: 6px;
+    color: red;
+    float: left;
+}
+.know .know_cont span:nth-child(2) {
+    display: block;
+    text-align: center;
+    line-height: 16px;
+    width: 40px;
+    height: 16px;
+    background-color: rgba(170, 63, 90, 0.3);
+    margin-right: 6px;
+    color: red;
+    float: right;
+}
+
+.know .know_cont li:nth-child(5n) {
+    margin-right: 0;
+}
+.know_price {
+    width: 228px;
+    height: 70px;
+    position: absolute;
+    left: 0;
+    bottom: -50px;
+    background-color: white;
+    transition: all .5s;
+}
+.know_price.active {
+    bottom: 0px;
+}
+.know_price i {
+    display: block;
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    position: absolute;
+    left: 7px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}

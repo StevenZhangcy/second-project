@@ -1,0 +1,116 @@
+/* 顶部广告 */
+.header {
+    margin-bottom: 5px;
+}
+.head-top {
+   height: 95px; 
+   background-color: #fdf3cf;
+   /* position: relative; */
+   overflow: hidden;
+}
+.head-top .close {
+    width: 20px;
+    height: 20px;
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    background-color: rgba(255, 255, 255, .8);
+    color: #666;
+    position: absolute;
+    right: 100px;
+    top: 10px;
+    cursor: pointer;
+  }
+  /* 顶部导航 */
+.head-nav {
+    height: 38px;
+    border-bottom: 1px solid #ccc;
+    background-color: #f4f4f4;
+    line-height: 38px;
+}
+.head-nav .litthouse {
+    margin-right: 15px;
+}
+.head-nav .litthouse img {
+   margin-top: -4px;
+}
+.head-nav .r_nav li {
+    float: left;
+    margin-right: 12px;
+}
+/* 客户服务 */
+.head-nav .r_nav .kehu {
+    width: 78px;
+   
+}
+
+/* 头部主体 */
+.head_main {
+    height: 148px;
+}
+.s_main {
+    height: 125px;
+}
+.head_main .l_mian {
+    height: 150px;
+
+}
+/* 搜索框 */
+.search_box{
+    width: 700px;
+    height: 46px;
+    border: 2px solid red;
+    margin-top: 32px;  
+    position: relative;
+}
+.search_box input:nth-child(1) {
+    width: 630px;
+    height: 46px;
+    padding-left: 20px;
+    float: left;
+}
+.search_box input:nth-child(2) {
+    width: 50px;
+    height: 46px;
+    background-color: red;
+    float: left;
+}
+.search_box .icon-sousuo {
+    position: absolute;
+    top:50%;
+    font-size: 20px;
+    right: 14px;
+    margin-top:-10px;
+    color: #fff;
+  }
+/* 购物车 */
+.cart {
+    width: 160px;
+    height: 46px;
+    border: 1px solid #ccc;
+    margin-top: 32px;
+    line-height: 46px;
+    text-align: center;
+    font-size: 18px;
+    
+}
+.cart .icon-gouwuchetianjia {
+    font-size: 18px;
+    color: #666666;
+    margin-right: 8px;
+}
+
+/* 关键字 */
+.keyWords li {
+    float: left; 
+    margin-right: 15px;
+    margin-top: 8px;
+  }
+
+.key_navs li{
+  float: left;
+  margin-right: 15px;
+  font-size: 18px;
+  font-family: '宋体';
+}
+

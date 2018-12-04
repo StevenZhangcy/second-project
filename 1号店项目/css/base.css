@@ -1,0 +1,48 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dt,dd{
+	margin: 0;
+	padding: 0;
+	outline-style: none;
+	list-style: none;
+
+	font-size: 16px;
+	color: #000;
+}
+
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration:none;
+	color: #000;
+}
+
+img,input {
+	border:0 none;
+	padding: 0;
+	outline-style: none;
+	vertical-align: middle;
+}
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+.clearfix {
+	zoom:1;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.red {
+	color: red;
+	
+}

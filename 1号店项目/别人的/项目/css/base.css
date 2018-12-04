@@ -1,0 +1,71 @@
+
+/*样式初始化*/
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd {
+	 margin: 0;
+	 padding: 0;
+	 list-style: none;
+
+	 color: #7c7c7f;
+	 font-size: 14px;
+	 font-family: "微软雅黑";
+}
+
+
+a {
+	text-decoration: none;
+	 color: #050505;
+}
+
+
+a:hover {
+	color: #ff2016;
+}
+
+
+i {
+	font-style: normal;
+}
+
+
+img,input {
+	border: 0 none;
+	outline-style: none;
+	
+	padding: 0;
+	/*display: block;*/
+	vertical-align: middle;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+
+.w {
+	width: 1182px;
+	margin: 0 auto;
+}
+
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+.show {
+	display: block;
+}
+.hide {
+	display: none;
+}

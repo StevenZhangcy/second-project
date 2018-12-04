@@ -1,0 +1,23 @@
+
+/* 主页开始 */
+.main_body {
+    background-color: #f0f0f0;
+}
+/* 每日疯抢 */
+.daily {
+    margin-top: 20px;
+}
+.daily .daily_tit {
+    /* display: block; */
+   height: 40px;
+   font-size: 30px;
+   color: #1652a6;
+   
+}
+daiy_list .public {
+    width: 276px;
+    height: 395px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: aquamarine;
+}

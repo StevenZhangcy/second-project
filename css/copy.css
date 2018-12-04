@@ -1,0 +1,185 @@
+.baby {
+    margin-top: 10px;
+}
+/* -----------------left-------------------- */
+.baby .left_baby {
+    width: 596px;
+    height: 430px;
+    margin-right: 8px;
+    background-color: pink;
+}
+
+.baby .left_baby_title {
+    width: 100%;
+    height: 50px;
+    background-color: #09D09C;
+    line-height: 50px;
+ }
+
+ .baby .left_baby_title > a {
+    display: block;
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    float: left;
+}
+.baby .left_baby_title ul {
+    float: right;
+    padding-right: 30px;
+}
+.baby .left_baby_title li{
+    float:left;
+}
+.baby .left_baby_title li >a {
+    color: white;
+}
+.baby .left_baby_title li:nth-child(even) {
+    width: 1px;
+    height: 16px;
+    background-color: white;
+    margin: 17px 10px;
+}
+.baby .left_baby_cont {
+    width: 246px;
+    height: 378px;
+    border: 1px solid red;
+}
+.baby .left_baby_cont .wrapper .tab {
+    margin-top: 20px;
+    padding: 10px;
+    height: 40px;
+    border: 1px solid red;
+}
+.baby .left_baby_cont .wrapper .tab li {
+    float: left;
+}
+.baby .left_baby_cont .products {
+    position: relative;
+}
+.baby .left_baby_cont .products .main {
+    position: absolute;
+    top: -50px;
+    right: 0;
+}
+.baby .left_baby_cont .products img{
+    width: 200px;
+    height: 316px;
+}
+
+.baby .left_baby .baby_small_con {
+    width: 346px;
+}
+.baby .left_baby .baby_small_con img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: all 0.5s;
+}
+.baby .left_baby .baby_small_con img.active {
+    right: 16px;
+}
+.baby .left_baby .baby_small_con li {
+    width: 163px;
+    height: 179px;
+    float: left;
+    background-color: pink;
+    padding: 5px;
+    position: relative;
+}
+
+/* ---------------------------right--------------- */
+.baby .right_baby {
+    width: 596px;
+    height: 430px;
+    background-color: orange;
+}
+
+.baby .right_baby_title {
+    width: 100%;
+    height: 50px;
+    background-color: #09D09C;
+    line-height: 50px;
+ }
+
+.baby .right_baby_title > a {
+    display: block;
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    float: left;
+}
+.baby .right_baby_title ul {
+    float: right;
+    padding-right: 30px;
+}
+.baby .right_baby_title li{
+    float:left;
+}
+.baby .right_baby_title li >a {
+    color: white;
+}
+.baby .right_baby_title li:nth-child(even) {
+    width: 1px;
+    height: 16px;
+    background-color: white;
+    margin: 17px 10px;
+}
+.baby .right_baby_cont {
+    width: 246px;
+    height: 378px;
+    border: 1px solid red;
+}
+.baby .right_baby_cont .wrapper .tab {
+    margin-top: 20px;
+    padding: 10px;
+    height: 40px;
+    border: 1px solid red;
+}
+.baby .right_baby_cont .wrapper .tab li {
+    float: left;
+}
+.baby .right_baby_cont .products {
+    position: relative;
+}
+.baby .right_baby_cont .products .main {
+    position: absolute;
+    top: -50px;
+    right: 0;
+}
+.baby .right_baby_cont .products img{
+    width: 200px;
+    height: 316px;
+}
+
+
+.baby .right_baby .baby_small_con {
+    width: 346px;
+  
+}
+
+.baby .right_baby .baby_small_con img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: all 0.5s;
+}
+
+.baby .right_baby .baby_small_con img.active {
+    right: 16px;
+}
+.baby .right_baby .baby_small_con li {
+    width: 163px;
+    height: 179px;
+    float: left;
+    background-color: pink;
+    padding: 5px;
+    position: relative;
+}
